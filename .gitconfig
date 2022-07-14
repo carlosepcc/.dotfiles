@@ -1,0 +1,13 @@
+[filter "lfs"]
+	process = git-lfs filter-process
+	required = true
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+[user]
+	name = Carlos Enrique
+	email = 44654304+carlosepcc@users.noreply.github.com
+[init]
+	defaultBranch = main
+[http]
+	sslVerify = false
+	proxy = http://localhost:3128

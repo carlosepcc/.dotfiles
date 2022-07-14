@@ -1,0 +1,53 @@
+{
+  "useTaobaoRegistry": false,
+  "presets": {
+    "first-preset": {
+      "useConfigFiles": false,
+      "plugins": {
+        "@vue/cli-plugin-babel": {},
+        "@vue/cli-plugin-pwa": {},
+        "@vue/cli-plugin-router": {
+          "historyMode": false
+        },
+        "@vue/cli-plugin-eslint": {
+          "config": "prettier",
+          "lintOn": [
+            "save",
+            "commit"
+          ]
+        }
+      },
+      "vueVersion": "2"
+    },
+    "simpleapp": {
+      "useConfigFiles": false,
+      "plugins": {
+        "@vue/cli-plugin-babel": {},
+        "@vue/cli-plugin-pwa": {},
+        "@vue/cli-plugin-eslint": {
+          "config": "prettier",
+          "lintOn": [
+            "save"
+          ]
+        }
+      },
+      "vueVersion": "3"
+    },
+    "Basic": {
+      "useConfigFiles": true,
+      "plugins": {
+        "@vue/cli-plugin-babel": {},
+        "@vue/cli-plugin-eslint": {
+          "config": "prettier",
+          "lintOn": [
+            "save"
+          ]
+        }
+      },
+      "vueVersion": "2"
+    }
+  },
+  "packageManager": "yarn",
+  "latestVersion": "4.5.15",
+  "lastChecked": 1644969212397
+}
